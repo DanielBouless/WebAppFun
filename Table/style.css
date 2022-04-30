@@ -1,3 +1,7 @@
+
+body{
+    background: rgba(90, 90, 90, 0.219);
+}
 th{
     background-color: #023E8A;
     padding: 1em;
@@ -7,8 +11,9 @@ th{
 }
 td{
     text-align: center;
-        border: 2px rgba(90, 90, 90, 0.623) solid;
-        font-family: sans-serif;
+    padding: .5em;
+    border: 2px rgba(90, 90, 90, 0.623) solid;
+    font-family: sans-serif;
 }
 
 tr:nth-child(2n){
@@ -45,6 +50,8 @@ tr{
     padding: 1em;
     width: 80%;
     background-color: #90E0EF;
+    box-shadow: 2px 2px 5px rgba(90, 90, 90, 0.623);
+    
 }
 
 table{
@@ -56,13 +63,14 @@ table{
     display: flex;
     flex-direction: row;
     height: max-content;
-    width: 100%;
+    width: 80%;
     margin: .5em auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .form-field {
     margin: auto .5em ;
+    height: fit-content;
 }
 
 .form-button{
@@ -71,11 +79,6 @@ table{
     width: auto;
     margin: 1em;
     justify-content: space-evenly;
-}
-
-#clear-form{
-    display: block;
-    margin: auto;
 }
 
 #submit-form {
@@ -88,13 +91,29 @@ details > summary{
     margin-bottom: 1em;
     margin-left: 1em;
     list-style-type: '+ ';
+    color: whitesmoke;
+    font-weight: bolder;
 }
 
 details{
     background-color: #48CAE4;
     border-radius: 1em;
     margin-top: 1em;
+    border: 2px rgba(90, 90, 90, 0.623) solid;
 }
 summary:hover{
     cursor: pointer;
+}
+
+summary > span{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+label{
+    display: block;
+    margin: .5em auto;
+    font-family: Helvetica;
+    font-weight: 600;
 }
