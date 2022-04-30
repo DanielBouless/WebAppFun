@@ -1,0 +1,44 @@
+th{
+    padding: 1em;
+    border: 2px rgba(90, 90, 90, 0.623) solid;
+    font-family: sans-serif;
+}
+td{
+    text-align: center;
+        border: 2px rgba(90, 90, 90, 0.623) solid;
+        font-family: sans-serif;
+}
+
+tr:nth-child(2){
+    background-color: rgb(255, 0, 191);
+}
+
+tr{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+thead{
+    color: rgb(255, 255, 255);
+}
+
+.table{
+    margin: auto;
+    width: max-content;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    width: max-content;
+    margin: auto;
+}
+
+.form-container{
+    padding: 1em;
+}
+
+table{
+    position: relative;
+    top:0px;
+}

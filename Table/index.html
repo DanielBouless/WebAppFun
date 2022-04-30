@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="table">
+        <table>
+          <thead>
+            <th>Project Number</th>
+            <th>Project Name</th>
+            <th>Project Due Date</th>
+            <th>Project Budget</th>
+          </thead>
+          <tr>
+            <td>123.45</td>
+            <td>Example</td>
+            <td>04/20/69</td>
+            <td>$500,000</td>
+          </tr>
+          <tr>
+            <td>678.90</td>
+            <td>Example2</td>
+            <td>69/69/69</td>
+            <td>$420,000</td>
+          </tr>
+        </table>
+      </div>
+      <details>
+        <summary>Add Project</summary>
+        <div class="form-container">
+          <label for="project-number">Enter Project Number: </label><br />
+          <input type="text" id="project-number" name="project-number" /><br />
+          <label for="project-name">Enter Project Name: </label><br />
+          <input type="text" id="project-name" name="project-name" /><br />
+          <label for="project-due-date">Enter Project Due Date: </label><br />
+          <input
+            type="text"
+            id="project-due-date"
+            name="project-due-date"
+          /><br />
+          <label for="project-budget">Enter Project Budget: </label><br />
+          <input type="text" id="project-buget" name="project-budget" /><br />
+          <button type="reset">Clear Form</button>
+          <button type="submit">Submit Form</button>
+        </div>
+      </details>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
