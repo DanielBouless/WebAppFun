@@ -10,7 +10,7 @@
   <body>
     <div class="main-container">
       <div class="table">
-        <table>
+        <table id="table">
           <thead>
             <th>Project Number</th>
             <th>Project Name</th>
@@ -34,20 +34,47 @@
       <details>
         <summary>Add Project</summary>
         <div class="form-container">
-          <label for="project-number">Enter Project Number: </label><br />
-          <input type="text" id="project-number" name="project-number" /><br />
-          <label for="project-name">Enter Project Name: </label><br />
-          <input type="text" id="project-name" name="project-name" /><br />
-          <label for="project-due-date">Enter Project Due Date: </label><br />
-          <input
-            type="text"
-            id="project-due-date"
-            name="project-due-date"
-          /><br />
-          <label for="project-budget">Enter Project Budget: </label><br />
-          <input type="text" id="project-buget" name="project-budget" /><br />
-          <button type="reset">Clear Form</button>
-          <button type="submit">Submit Form</button>
+          <div class="form-section">
+            <div class="form-field">
+              <label for="project-number">Enter Project Number: </label><br />
+              <input
+                type="text"
+                id="project-number"
+                name="project-number"
+              /><br />
+            </div>
+            <div class="form-field">
+              <label for="project-name">Enter Project Name: </label><br />
+              <input type="text" id="project-name" name="project-name" /><br />
+            </div>
+          </div>
+          <div class="form-section">
+            <div class="form-field">
+              <label for="project-due-date">Enter Project Due Date: </label
+              ><br />
+              <input
+                type="date"
+                id="project-due-date"
+                name="project-due-date"
+              /><br />
+            </div>
+            <div class="form-field">
+              <label for="project-budget">Enter Project Budget: </label><br />
+              <input
+                type="text"
+                id="project-budget"
+                name="project-budget"
+              /><br />
+            </div>
+          </div>
+          <div class="form-button">
+            <div id="clear-form">
+              <button type="reset">Clear Form</button>
+            </div>
+            <div id="submit-form">
+              <button type="submit">Submit Form</button>
+            </div>
+          </div>
         </div>
       </details>
     </div>
